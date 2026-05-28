@@ -1,11 +1,14 @@
 #include <iostream>
 
-int sumar(int a, int b) {
-    return a + b;
+void mostrarMenu() {
+    std::cout << "\n=== Menú Principal ===" << std::endl;
+    std::cout << "1. Sumar" << std::endl;
+    std::cout << "2. Restar" << std::endl;
+    std::cout << "0. Salir" << std::endl;
 }
 
 int main() {
-    std::cout << "=== Calculadora Simple ===" << std::endl;
-    std::cout << "2 + 3 = " << sumar(2, 3) << std::endl;
+    mostrarMenu();
+    std::cout << "Menú cargado correctamente." << std::endl;
     return 0;
 }
